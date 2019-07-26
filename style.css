@@ -1,0 +1,80 @@
+#fblogo,#linkedinlogo,#linelogo{
+    width: 20px;
+    height: 20px;
+}
+body{
+background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg"); 
+    z-index: -1;
+    width: 100%;
+    height: 1500px;
+    color: azure;
+    align-content: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+header {
+  background-color: rgba(63, 28, 28,0.6);
+  border-bottom: 1px solid #466995;
+  position:fixed;
+  width:100%;
+  z-index:10;
+}
+ul {
+  margin: 10px auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display:inline-block;
+  width:100px;
+}
+  
+  nav li {
+    color: rgba(63, 28, 28,0.6);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display:inline-block;
+    height: 20px;
+  }
+  li:hover {
+    color: #DBE9EE;
+  }
+  .p1, .p2, .p3 {
+    width: 50%;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 18px;
+  }
+  #media{
+
+    top: auto;
+  }
+  .video{
+   
+    top: auto;
+  }
+  #home{
+    font-size: 40px;
+  }
+  footer {
+    background-color: #DBE9EE;
+    text-align: center;
+    height:100px;
+  }
+  .first-letter {
+    float: left;
+    padding-right: 1.4rem;
+    font-family: "Abril Fatface", serif;
+    font-size: 7.44rem;
+    color: #10b0d8;
+    line-height: 0.87;
+}
